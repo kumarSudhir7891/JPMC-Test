@@ -8,11 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		3713678521E4945000C5E574 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713678421E4945000C5E574 /* AppDelegate.swift */; };
-		3713678721E4945000C5E574 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713678621E4945000C5E574 /* ViewController.swift */; };
 		3713678A21E4945000C5E574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3713678821E4945000C5E574 /* Main.storyboard */; };
 		3713678C21E4945100C5E574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3713678B21E4945100C5E574 /* Assets.xcassets */; };
 		3713678F21E4945100C5E574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3713678D21E4945100C5E574 /* LaunchScreen.storyboard */; };
 		3713679A21E4945100C5E574 /* JPMCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713679921E4945100C5E574 /* JPMCTests.swift */; };
+		371367B421E4946800C5E574 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371367A521E4946700C5E574 /* ViewController.swift */; };
+		371367B521E4946800C5E574 /* PlanetNameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 371367A621E4946700C5E574 /* PlanetNameTableViewCell.xib */; };
+		371367B621E4946800C5E574 /* PlanetNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371367A721E4946700C5E574 /* PlanetNameTableViewCell.swift */; };
+		371367B721E4946800C5E574 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371367A921E4946700C5E574 /* TableView.swift */; };
+		371367B821E4946800C5E574 /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371367AA21E4946700C5E574 /* LocalStorage.swift */; };
+		371367B921E4946800C5E574 /* StandardDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371367AB21E4946700C5E574 /* StandardDataSource.swift */; };
+		371367BA21E4946800C5E574 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371367AD21E4946700C5E574 /* Extensions.swift */; };
+		371367BB21E4946800C5E574 /* ViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371367AF21E4946700C5E574 /* ViewControllerViewModel.swift */; };
+		371367BC21E4946800C5E574 /* GetPlanetDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371367B121E4946700C5E574 /* GetPlanetDetailsService.swift */; };
+		371367BD21E4946800C5E574 /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371367B221E4946700C5E574 /* RemoteDataSource.swift */; };
+		371367BE21E4946800C5E574 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371367B321E4946700C5E574 /* BaseService.swift */; };
+		371367C121E4950F00C5E574 /* TestRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371367BF21E4950F00C5E574 /* TestRemoteDataSource.swift */; };
+		371367C221E4950F00C5E574 /* TestViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371367C021E4950F00C5E574 /* TestViewControllerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +40,6 @@
 /* Begin PBXFileReference section */
 		3713678121E4945000C5E574 /* JPMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPMC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3713678421E4945000C5E574 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3713678621E4945000C5E574 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3713678921E4945000C5E574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3713678B21E4945100C5E574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3713678E21E4945100C5E574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +47,19 @@
 		3713679521E4945100C5E574 /* JPMCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPMCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3713679921E4945100C5E574 /* JPMCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPMCTests.swift; sourceTree = "<group>"; };
 		3713679B21E4945100C5E574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		371367A521E4946700C5E574 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		371367A621E4946700C5E574 /* PlanetNameTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlanetNameTableViewCell.xib; sourceTree = "<group>"; };
+		371367A721E4946700C5E574 /* PlanetNameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetNameTableViewCell.swift; sourceTree = "<group>"; };
+		371367A921E4946700C5E574 /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		371367AA21E4946700C5E574 /* LocalStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
+		371367AB21E4946700C5E574 /* StandardDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardDataSource.swift; sourceTree = "<group>"; };
+		371367AD21E4946700C5E574 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		371367AF21E4946700C5E574 /* ViewControllerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerViewModel.swift; sourceTree = "<group>"; };
+		371367B121E4946700C5E574 /* GetPlanetDetailsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPlanetDetailsService.swift; sourceTree = "<group>"; };
+		371367B221E4946700C5E574 /* RemoteDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
+		371367B321E4946700C5E574 /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		371367BF21E4950F00C5E574 /* TestRemoteDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestRemoteDataSource.swift; sourceTree = "<group>"; };
+		371367C021E4950F00C5E574 /* TestViewControllerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewControllerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +102,11 @@
 			isa = PBXGroup;
 			children = (
 				3713678421E4945000C5E574 /* AppDelegate.swift */,
-				3713678621E4945000C5E574 /* ViewController.swift */,
+				371367B021E4946700C5E574 /* DataLayer */,
+				371367AC21E4946700C5E574 /* Extension */,
+				371367A821E4946700C5E574 /* Helper */,
+				371367A421E4946700C5E574 /* View */,
+				371367AE21E4946700C5E574 /* ViewModel */,
 				3713678821E4945000C5E574 /* Main.storyboard */,
 				3713678B21E4945100C5E574 /* Assets.xcassets */,
 				3713678D21E4945100C5E574 /* LaunchScreen.storyboard */,
@@ -91,9 +119,57 @@
 			isa = PBXGroup;
 			children = (
 				3713679921E4945100C5E574 /* JPMCTests.swift */,
+				371367BF21E4950F00C5E574 /* TestRemoteDataSource.swift */,
+				371367C021E4950F00C5E574 /* TestViewControllerViewModel.swift */,
 				3713679B21E4945100C5E574 /* Info.plist */,
 			);
 			path = JPMCTests;
+			sourceTree = "<group>";
+		};
+		371367A421E4946700C5E574 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				371367A521E4946700C5E574 /* ViewController.swift */,
+				371367A621E4946700C5E574 /* PlanetNameTableViewCell.xib */,
+				371367A721E4946700C5E574 /* PlanetNameTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		371367A821E4946700C5E574 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				371367A921E4946700C5E574 /* TableView.swift */,
+				371367AA21E4946700C5E574 /* LocalStorage.swift */,
+				371367AB21E4946700C5E574 /* StandardDataSource.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		371367AC21E4946700C5E574 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				371367AD21E4946700C5E574 /* Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		371367AE21E4946700C5E574 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				371367AF21E4946700C5E574 /* ViewControllerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		371367B021E4946700C5E574 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				371367B121E4946700C5E574 /* GetPlanetDetailsService.swift */,
+				371367B221E4946700C5E574 /* RemoteDataSource.swift */,
+				371367B321E4946700C5E574 /* BaseService.swift */,
+			);
+			path = DataLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371367B521E4946800C5E574 /* PlanetNameTableViewCell.xib in Resources */,
 				3713678F21E4945100C5E574 /* LaunchScreen.storyboard in Resources */,
 				3713678C21E4945100C5E574 /* Assets.xcassets in Resources */,
 				3713678A21E4945000C5E574 /* Main.storyboard in Resources */,
@@ -197,7 +274,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3713678721E4945000C5E574 /* ViewController.swift in Sources */,
+				371367B621E4946800C5E574 /* PlanetNameTableViewCell.swift in Sources */,
+				371367B921E4946800C5E574 /* StandardDataSource.swift in Sources */,
+				371367BD21E4946800C5E574 /* RemoteDataSource.swift in Sources */,
+				371367B721E4946800C5E574 /* TableView.swift in Sources */,
+				371367BA21E4946800C5E574 /* Extensions.swift in Sources */,
+				371367B421E4946800C5E574 /* ViewController.swift in Sources */,
+				371367B821E4946800C5E574 /* LocalStorage.swift in Sources */,
+				371367BE21E4946800C5E574 /* BaseService.swift in Sources */,
+				371367BC21E4946800C5E574 /* GetPlanetDetailsService.swift in Sources */,
+				371367BB21E4946800C5E574 /* ViewControllerViewModel.swift in Sources */,
 				3713678521E4945000C5E574 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,7 +292,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371367C121E4950F00C5E574 /* TestRemoteDataSource.swift in Sources */,
 				3713679A21E4945100C5E574 /* JPMCTests.swift in Sources */,
+				371367C221E4950F00C5E574 /* TestViewControllerViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
